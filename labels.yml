@@ -1,0 +1,40 @@
+labels:
+  - name: area:content
+    description: Content related
+    color: C49799
+  - name: area:platform
+    description: Content related
+    color: BFB6BB
+  - name: type:bug
+    description: Something isn't working
+    color: EF5B5B
+  - name: type:documentation
+    description: Improvements or additions to documentation
+    color: FFBA49
+  - name: type:enhancement
+    description: New feature or request
+    color: 20A39E
+  - name: type:refactor
+    description: Refactor related topic
+    color: A4A9AD
+repos:
+  - name: shihanng/ng.shihan.dev
+    labels:
+      - area:content
+      - area:platform
+      - type:bug
+      - type:documentation
+      - type:enhancement
+      - type:refactor
+  - name: shihanng/asdf-st
+    labels:
+      - type:bug
+      - type:documentation
+      - type:enhancement
+      - type:refactor
+  - name: shihanng/terraform-provider-installer
+    labels:
+      - type:bug
+      - type:documentation
+      - type:enhancement
+      - type:refactor
